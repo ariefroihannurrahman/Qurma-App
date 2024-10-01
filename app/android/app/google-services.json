@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069423454147",
+    "project_id": "qurma-app-26675",
+    "storage_bucket": "qurma-app-26675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069423454147:android:54f3c5c732ca7959bdff76",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfSDJ0JK--h2cXrcenFS99Uz5rlDclq0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
