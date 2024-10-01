@@ -66,6 +66,7 @@ lib/firebase_options.dart
 lib/services/config.dart
 android/app/google-services.json
 firebase.json
+test/
 
 # MacOS
 macos/Flutter/ephemeral/
