@@ -1,4 +1,5 @@
 import 'package:app/firebase_options.dart';
+import 'package:app/pages/authentication.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -15,12 +16,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Qurma App',
+      routes: {
+        '/': (context) => const SignInWithGoogle(),
+      },
+      initialRoute: '/',  // Set HomePage sebagai halaman awal
     );
   }
 }
