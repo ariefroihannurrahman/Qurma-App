@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1069423454147-nn1ua25uul1munqepdsrsdsmbau8kr00.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1069423454147-nn1ua25uul1munqepdsrsdsmbau8kr00</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBy0TxzsrYJtnfZsPXTsJj_9gvLyeNHAPk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1069423454147</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.app</string>
+	<key>PROJECT_ID</key>
+	<string>qurma-app-26675</string>
+	<key>STORAGE_BUCKET</key>
+	<string>qurma-app-26675.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1069423454147:ios:ee4fb4e550940c78bdff76</string>
+</dict>
+</plist>
