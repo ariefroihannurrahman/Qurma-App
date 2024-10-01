@@ -4,9 +4,8 @@ import './config.dart';
 
 class AuthService {
   Future<UserCredential?> signInWithGoogle() async {
-    final GoogleSignIn googleSignIn = GoogleSignIn(
-      clientId: FirebaseConfiguration().clientId
-    );
+    final GoogleSignIn googleSignIn =
+        GoogleSignIn(clientId: FirebaseConfiguration().clientId);
     final GoogleSignInAccount? gUser = await googleSignIn.signIn();
 
     if (gUser == null) {
@@ -17,9 +16,7 @@ class AuthService {
     final GoogleSignInAuthentication gAuth = await gUser.authentication;
 
     final credential = GoogleAuthProvider.credential(
-      accessToken: gAuth.accessToken,
-      idToken: gAuth.idToken
-    );
+        accessToken: gAuth.accessToken, idToken: gAuth.idToken);
 
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
